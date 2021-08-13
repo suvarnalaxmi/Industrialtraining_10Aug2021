@@ -1,0 +1,41 @@
+Date:13/08/2021
+
+1) Identify the Valid and invalid Operators?
+Ans :     < >
+
+2) If i = 3, j = 2 what is the result of following expressions?
+i + 5 >= j – 6    :True
+j * 10 < i **2    :False
+i < j + 5 > j ** 4:False
+
+3)Which is the correct operator for power(xy)? 
+Ans:**
+
+4)Whi/ch one of these is floor division? 
+Ans:
+//
+    
+5)What is the order of precedence in python? 
+Ans:
+P – Parentheses.
+E – Exponentiation.
+M – Multiplication.
+D – Division.
+A – Addition.
+S – Subtraction.
+
+    
+6)What is the answer to this expression, 22 % 3 is? 
+Ans:1
+
+7)Mathematical operations can be performed on a string?
+Ans:No,mathematical operations cannot be performed on a string.
+
+8)What is meant by an Operator in Python?
+Ans:Operators are used to perform operations on variables and values.
+
+9)How many types of operators in Python?
+Ans:7 operators
+      
+        
+       
