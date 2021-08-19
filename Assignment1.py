@@ -7,9 +7,10 @@ print(txt)
 print("---Answer 2---")
 import datetime
 x = "19-08-2021" 
+print("Year:",x[6:])
 format = "%d-%m-%Y"
 dt_object = datetime.datetime.strptime(x, format)
-print("Year: ", dt_object.year)
+print("Year using function: ", dt_object.year)
 
 #3)In a small company, the average salary of three employees is Rs1000 per week. If one employee earns Rs1100 and other earns Rs500, how much will the third employee earn? Solve by using Python programm
 print("---Answer 3---")
@@ -19,13 +20,22 @@ e3=0
 avg=1000
 totalsalaryof3emp=1000*3
 e3=totalsalaryof3emp-e1-e2
-print("Salary of third employee is ",e3)
+print("Salary of third employee is Rs.",e3)
 
 #4) Write Program - convert a percentage to a fraction (To convert a percentage into fraction let say 30% to a fraction)
 print("---Answer 4---")
 from fractions import Fraction
 percent=30
-print("Conversion of 30 percent into fraction is ",Fraction(30,100))
+f=percent/100
+n=percent
+d=100
+#simplyfing the fractions
+num=n/10
+den=d/10
+print("Fraction is" ,int(num),"/",int(den))
+
+print("Using function:Conversion of 30 percent into fraction is ",Fraction(30,100))
+
 
 #5)Write Program - A train 340 m long is running at a speed of 45 km/hr. what time will it take to cross a 160 m long  tunnel?
 print("---Answer 5---")
