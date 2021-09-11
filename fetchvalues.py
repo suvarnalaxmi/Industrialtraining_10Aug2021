@@ -12,9 +12,9 @@ try:
     tdata=cur.fetchall()
     print("Records are ")
     for row in tdata:
-        print("name : ",row[0])
+        print("name       : ",row[0])
         print("birthplace : ",row[1])
-        print("address : ",row[2])
+        print("address    : ",row[2])
 
     print("values fetched")
 except:

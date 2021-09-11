@@ -3,13 +3,15 @@ try:
     query="CREATE DATABASE EMPDB"
     myconn=MySQLdb.connect(host="localhost",user="root",passwd="")
     cur=myconn.cursor()
-    cur.execute(query)    
+    print("cursor connection established succesfully")
+    cur.execute(query)  
+    print("Query executed")  
 except:
     if myconn != None:
         myconn.rollback()
         print("Database connection has some issues")
 finally:
-    print("Cursor is closed")
     cur.close()
+    print("Cursor is closed")
     myconn.close()
     print("Database connection is closed")
